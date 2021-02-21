@@ -1,0 +1,62 @@
+.finish {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-conect {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-footer {
+  display: block;
+  margin-bottom: 20px;
+  color: $primaryTextColor;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.contact-place {
+  color: $maineContactWhiteColor;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 9px;
+}
+.contacts-footer .link {
+  display: block;
+  color: $contactWhiteColor;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 9px;
+}
+.link-non {
+  color: $contactWhiteColor;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.conect {
+  font-family: Roboto;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.iconka-footer {
+  display: flex;
+  width: 206px;
+  height: 44px;
+  text-align: start;
+}
+.new-fon-icon {
+  fill: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.with-fon-icon {
+  fill: #ffffff;
+}
+footer {
+  background: #2f303a;
+}

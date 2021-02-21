@@ -1,0 +1,71 @@
+.content-detal {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content-element {
+  width: 270px;
+  &::before {
+    display: block;
+    height: 120px;
+    content: '';
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(245, 244, 250, 1);
+    padding: 25px 100px;
+    margin-bottom: 30px;
+  }
+}
+.content .title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: $primaryTextColor;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.content .subtitle {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $titleTextColor;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* Задаю свг  */
+.antenna {
+  &::before {
+    background-image: url('../img/antenna.svg');
+  }
+}
+
+.clock {
+  &::before {
+    background-image: url('../img/clock.svg');
+  }
+}
+.diagram {
+  &::before {
+    background-image: url('../img/diagram.svg');
+  }
+}
+.astronaut {
+  &::before {
+    background-image: url('../img/astronaut.svg');
+  }
+}
+.content-element {
+  &:not(:nth-child(4n)) {
+    margin-right: 30px;
+  }
+}
+
+.fon {
+  &:nth-child(4n) {
+    background-color: rgba(245, 244, 250, 1);
+  }
+}
